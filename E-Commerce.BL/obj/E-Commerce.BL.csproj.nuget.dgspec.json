@@ -1,17 +1,81 @@
 {
   "format": 1,
   "restore": {
-    "D:\\sd\\C#\\C# repos\\E-Commerce\\E-Commerce.BL\\E-Commerce.BL.csproj": {}
+    "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.BL\\E-Commerce.BL.csproj": {}
   },
   "projects": {
-    "D:\\sd\\C#\\C# repos\\E-Commerce\\E-Commerce.BL\\E-Commerce.BL.csproj": {
+    "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.BL\\E-Commerce.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\sd\\C#\\C# repos\\E-Commerce\\E-Commerce.BL\\E-Commerce.BL.csproj",
+        "projectUniqueName": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.BL\\E-Commerce.BL.csproj",
         "projectName": "E-Commerce.BL",
-        "projectPath": "D:\\sd\\C#\\C# repos\\E-Commerce\\E-Commerce.BL\\E-Commerce.BL.csproj",
+        "projectPath": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.BL\\E-Commerce.BL.csproj",
         "packagesPath": "C:\\Users\\CompuMart\\.nuget\\packages\\",
-        "outputPath": "D:\\sd\\C#\\C# repos\\E-Commerce\\E-Commerce.BL\\obj\\",
+        "outputPath": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\CompuMart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.DAL\\E-Commerce.DAL.csproj": {
+                "projectPath": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.DAL\\E-Commerce.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.DAL\\E-Commerce.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.DAL\\E-Commerce.DAL.csproj",
+        "projectName": "E-Commerce.DAL",
+        "projectPath": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.DAL\\E-Commerce.DAL.csproj",
+        "packagesPath": "C:\\Users\\CompuMart\\.nuget\\packages\\",
+        "outputPath": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CompuMart\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +108,34 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -5319,11 +5319,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\sd\\C#\\C# repos\\E-Commerce\\E-Commerce.DAL\\E-Commerce.DAL.csproj",
+      "projectUniqueName": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.DAL\\E-Commerce.DAL.csproj",
       "projectName": "E-Commerce.DAL",
-      "projectPath": "D:\\sd\\C#\\C# repos\\E-Commerce\\E-Commerce.DAL\\E-Commerce.DAL.csproj",
+      "projectPath": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.DAL\\E-Commerce.DAL.csproj",
       "packagesPath": "C:\\Users\\CompuMart\\.nuget\\packages\\",
-      "outputPath": "D:\\sd\\C#\\C# repos\\E-Commerce\\E-Commerce.DAL\\obj\\",
+      "outputPath": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CompuMart\\AppData\\Roaming\\NuGet\\NuGet.Config",

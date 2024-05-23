@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = E_Commerce.DAL
-build_property.ProjectDir = D:\sd\C#\C# repos\E-Commerce\E-Commerce.DAL\
+build_property.ProjectDir = D:\sd\C#\C# repos\E-Commerce-API\E-Commerce.DAL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

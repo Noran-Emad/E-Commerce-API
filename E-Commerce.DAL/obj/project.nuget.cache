@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VWuXwT72z/XndiICU1bmSij/Rd7Z24sVF1QMPmxHd/F9YL2uQK1NyyetETr6PoLkIfZ8vpWp/oMC9DMgb5nbgQ==",
+  "dgSpecHash": "F57hVtY4FuMz3VXGYLRknTilKccvMhxmE4LPCv96xDmFRPaT51N2tP9hGz9CjzJ9GyFqxm+S5F0+Ya4yHHjGBw==",
   "success": true,
-  "projectFilePath": "D:\\sd\\C#\\C# repos\\E-Commerce\\E-Commerce.DAL\\E-Commerce.DAL.csproj",
+  "projectFilePath": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.DAL\\E-Commerce.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CompuMart\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\CompuMart\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
