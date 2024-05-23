@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5EDF26B8-8CB5-46A9-B3AD-8C6C07DE1220}|E-Commerce.API\\E-Commerce.API.csproj|d:\\sd\\c#\\c# repos\\e-commerce-api\\e-commerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EDF26B8-8CB5-46A9-B3AD-8C6C07DE1220}|E-Commerce.API\\E-Commerce.API.csproj|solutionrelative:e-commerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EDF26B8-8CB5-46A9-B3AD-8C6C07DE1220}|E-Commerce.API\\E-Commerce.API.csproj|d:\\sd\\c#\\c# repos\\e-commerce-api\\e-commerce.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EDF26B8-8CB5-46A9-B3AD-8C6C07DE1220}|E-Commerce.API\\E-Commerce.API.csproj|solutionrelative:e-commerce.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EDF26B8-8CB5-46A9-B3AD-8C6C07DE1220}|E-Commerce.API\\E-Commerce.API.csproj|d:\\sd\\c#\\c# repos\\e-commerce-api\\e-commerce.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EDF26B8-8CB5-46A9-B3AD-8C6C07DE1220}|E-Commerce.API\\E-Commerce.API.csproj|solutionrelative:e-commerce.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EDF26B8-8CB5-46A9-B3AD-8C6C07DE1220}|E-Commerce.API\\E-Commerce.API.csproj|d:\\sd\\c#\\c# repos\\e-commerce-api\\e-commerce.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EDF26B8-8CB5-46A9-B3AD-8C6C07DE1220}|E-Commerce.API\\E-Commerce.API.csproj|solutionrelative:e-commerce.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EDF26B8-8CB5-46A9-B3AD-8C6C07DE1220}|E-Commerce.API\\E-Commerce.API.csproj|d:\\sd\\c#\\c# repos\\e-commerce-api\\e-commerce.api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EDF26B8-8CB5-46A9-B3AD-8C6C07DE1220}|E-Commerce.API\\E-Commerce.API.csproj|solutionrelative:e-commerce.api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EDF26B8-8CB5-46A9-B3AD-8C6C07DE1220}|E-Commerce.API\\E-Commerce.API.csproj|d:\\sd\\c#\\c# repos\\e-commerce-api\\e-commerce.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EDF26B8-8CB5-46A9-B3AD-8C6C07DE1220}|E-Commerce.API\\E-Commerce.API.csproj|solutionrelative:e-commerce.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790FDC7B-B7F5-4194-B20D-7D0E2A0979BF}|E-Commerce.DAL\\E-Commerce.DAL.csproj|d:\\sd\\c#\\c# repos\\e-commerce-api\\e-commerce.dal\\seviceextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{790FDC7B-B7F5-4194-B20D-7D0E2A0979BF}|E-Commerce.DAL\\E-Commerce.DAL.csproj|solutionrelative:e-commerce.dal\\seviceextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EDF26B8-8CB5-46A9-B3AD-8C6C07DE1220}|E-Commerce.API\\E-Commerce.API.csproj|d:\\sd\\c#\\c# repos\\e-commerce-api\\e-commerce.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5EDF26B8-8CB5-46A9-B3AD-8C6C07DE1220}|E-Commerce.API\\E-Commerce.API.csproj|solutionrelative:e-commerce.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790FDC7B-B7F5-4194-B20D-7D0E2A0979BF}|E-Commerce.DAL\\E-Commerce.DAL.csproj|d:\\sd\\c#\\c# repos\\e-commerce-api\\e-commerce.dal\\e-commerce.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{790FDC7B-B7F5-4194-B20D-7D0E2A0979BF}|E-Commerce.DAL\\E-Commerce.DAL.csproj|solutionrelative:e-commerce.dal\\e-commerce.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EDF26B8-8CB5-46A9-B3AD-8C6C07DE1220}|E-Commerce.API\\E-Commerce.API.csproj|d:\\sd\\c#\\c# repos\\e-commerce-api\\e-commerce.api\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EDF26B8-8CB5-46A9-B3AD-8C6C07DE1220}|E-Commerce.API\\E-Commerce.API.csproj|solutionrelative:e-commerce.api\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{813E7BCB-6874-41AA-B7D8-FCE94CBAFB05}|E-Commerce.BL\\E-Commerce.BL.csproj|d:\\sd\\c#\\c# repos\\e-commerce-api\\e-commerce.bl\\dtos\\cart\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{813E7BCB-6874-41AA-B7D8-FCE94CBAFB05}|E-Commerce.BL\\E-Commerce.BL.csproj|solutionrelative:e-commerce.bl\\dtos\\cart\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,11 +58,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "E-Commerce.API\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "E-Commerce.API\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:38:47.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "E-Commerce.API\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "E-Commerce.API\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAcwCEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:38:08.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.API\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "E-Commerce.API\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.API\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "E-Commerce.API\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:38:02.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.API\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "E-Commerce.API\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.API\\Controllers\\CartController.cs",
+              "RelativeToolTip": "E-Commerce.API\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:36:58.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "E-Commerce.API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "E-Commerce.API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:35:58.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SeviceExtention.cs",
+              "DocumentMoniker": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.DAL\\SeviceExtention.cs",
+              "RelativeDocumentMoniker": "E-Commerce.DAL\\SeviceExtention.cs",
+              "ToolTip": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.DAL\\SeviceExtention.cs",
+              "RelativeToolTip": "E-Commerce.DAL\\SeviceExtention.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABUAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:27:26.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "E-Commerce.DAL",
+              "DocumentMoniker": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.DAL\\E-Commerce.DAL.csproj",
+              "RelativeDocumentMoniker": "E-Commerce.DAL\\E-Commerce.DAL.csproj",
+              "ToolTip": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.DAL\\E-Commerce.DAL.csproj",
+              "RelativeToolTip": "E-Commerce.DAL\\E-Commerce.DAL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-23T14:27:20.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.API\\appsettings.json",
+              "RelativeDocumentMoniker": "E-Commerce.API\\appsettings.json",
+              "ToolTip": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.API\\appsettings.json",
+              "RelativeToolTip": "E-Commerce.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-23T14:26:05.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Constant.cs",
+              "DocumentMoniker": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.API\\Constant.cs",
+              "RelativeDocumentMoniker": "E-Commerce.API\\Constant.cs",
+              "ToolTip": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.API\\Constant.cs",
+              "RelativeToolTip": "E-Commerce.API\\Constant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:23:04.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.API\\Program.cs",
+              "RelativeDocumentMoniker": "E-Commerce.API\\Program.cs",
+              "ToolTip": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.API\\Program.cs",
+              "RelativeToolTip": "E-Commerce.API\\Program.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAAEoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T14:15:44.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AddToCartDto.cs",
               "DocumentMoniker": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.BL\\Dtos\\Cart\\AddToCartDto.cs",
               "RelativeDocumentMoniker": "E-Commerce.BL\\Dtos\\Cart\\AddToCartDto.cs",
@@ -35,8 +205,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "E-Commerce.API",
+              "DocumentIndex": 11,
+              "Title": "E-Commerce.API.csproj",
               "DocumentMoniker": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.API\\E-Commerce.API.csproj",
               "RelativeDocumentMoniker": "E-Commerce.API\\E-Commerce.API.csproj",
               "ToolTip": "D:\\sd\\C#\\C# repos\\E-Commerce-API\\E-Commerce.API\\E-Commerce.API.csproj",

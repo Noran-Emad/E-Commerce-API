@@ -1,13 +1,12 @@
 using E_Commerce.DAL;
-using E_Commerce.DAL.Context;
-using E_Commerce.DAL.Repos;
-using E_Commerce.DAL.Repos.OrdersRepo;
-using E_Commerce.DAL.Repos.ProducrsRepo;
-using Microsoft.EntityFrameworkCore;
+using E_Commerce.DAL.DBContext;
 using E_Commerce.BL;
-using Microsoft.IdentityModel.Tokens;
+using Microsoft.EntityFrameworkCore;
 using System.Reflection.Metadata;
 using System.Text;
+using static E_Commerce.API.Constant;
+using Microsoft.IdentityModel.Tokens;
+using E_Commerce.DAL.DBContext;
 namespace E_Commerce.API
 {
     public class Program
@@ -18,21 +17,16 @@ namespace E_Commerce.API
             const string AllowAllCorsPolicy = "AllowAll";
 
             // Add services to the container.
-
-
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            var connectionString = builder.Configuration.GetConnectionString("E_CommerceSystem");
-            builder.Services.AddDbContext<DbContext>(options =>
-            {
-                options.UseSqlServer(connectionString);
-            });
+            
 
             builder.Services.AddDALServices(builder.Configuration);
-            
+            builder.Services.AddBLServices();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -41,8 +35,50 @@ namespace E_Commerce.API
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+            #region Identity
+
+            //builder.Services.AddIdentityCore<User>(options =>
+            //{
+            //    options.Password.RequireDigit = false;
+            //    options.Password.RequireLowercase = false;
+            //    options.Password.RequireNonAlphanumeric = false;
+            //    options.Password.RequireUppercase = false;
+            //    options.Password.RequiredLength = 3;
+
+            //    options.User.RequireUniqueEmail = true;
+            //})
+            //    .AddEntityFrameworkStores<Context>();
+
+            #endregion
+
+            #region Authentication
+
+            //builder.Services.AddAuthentication(options =>
+            //{
+            //    // Configure used authentication 
+            //    options.DefaultAuthenticateScheme = "MyDefault";
+            //    options.DefaultChallengeScheme = "MyDefault"; // return 401 if not authenticated, 403 if authenticated but not authorized
+            //})
+            //    // Define the authentication scheme
+            //.AddJwtBearer("MyDefault", options =>
+            //{
+            //    var keyFromConfig = builder.Configuration.GetValue<string>(AppSettings.SecretKey)!;
+            //    var keyInBytes = Encoding.ASCII.GetBytes(keyFromConfig);
+            //    var key = new SymmetricSecurityKey(keyInBytes);
+
+            //    options.TokenValidationParameters = new TokenValidationParameters
+            //    {
+            //        ValidateIssuer = false,
+            //        ValidateAudience = false,
+            //        IssuerSigningKey = key
+            //    };
+            //});
+
+            #endregion
 
             app.UseHttpsRedirection();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

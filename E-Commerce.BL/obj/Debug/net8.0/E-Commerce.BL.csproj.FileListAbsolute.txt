@@ -1,0 +1,16 @@
+D:\sd\C#\C# repos\E-Commerce-API\E-Commerce.BL\bin\Debug\net8.0\E-Commerce.BL.deps.json
+D:\sd\C#\C# repos\E-Commerce-API\E-Commerce.BL\bin\Debug\net8.0\E-Commerce.BL.dll
+D:\sd\C#\C# repos\E-Commerce-API\E-Commerce.BL\bin\Debug\net8.0\E-Commerce.BL.pdb
+D:\sd\C#\C# repos\E-Commerce-API\E-Commerce.BL\bin\Debug\net8.0\E-Commerce.DAL.dll
+D:\sd\C#\C# repos\E-Commerce-API\E-Commerce.BL\bin\Debug\net8.0\E-Commerce.DAL.pdb
+D:\sd\C#\C# repos\E-Commerce-API\E-Commerce.BL\obj\Debug\net8.0\E-Commerce.BL.csproj.AssemblyReference.cache
+D:\sd\C#\C# repos\E-Commerce-API\E-Commerce.BL\obj\Debug\net8.0\E-Commerce.BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\sd\C#\C# repos\E-Commerce-API\E-Commerce.BL\obj\Debug\net8.0\E-Commerce.BL.AssemblyInfoInputs.cache
+D:\sd\C#\C# repos\E-Commerce-API\E-Commerce.BL\obj\Debug\net8.0\E-Commerce.BL.AssemblyInfo.cs
+D:\sd\C#\C# repos\E-Commerce-API\E-Commerce.BL\obj\Debug\net8.0\E-Commerce.BL.csproj.CoreCompileInputs.cache
+D:\sd\C#\C# repos\E-Commerce-API\E-Commerce.BL\obj\Debug\net8.0\E-Commerce.BL.sourcelink.json
+D:\sd\C#\C# repos\E-Commerce-API\E-Commerce.BL\obj\Debug\net8.0\E-Commer.CD690944.Up2Date
+D:\sd\C#\C# repos\E-Commerce-API\E-Commerce.BL\obj\Debug\net8.0\E-Commerce.BL.dll
+D:\sd\C#\C# repos\E-Commerce-API\E-Commerce.BL\obj\Debug\net8.0\refint\E-Commerce.BL.dll
+D:\sd\C#\C# repos\E-Commerce-API\E-Commerce.BL\obj\Debug\net8.0\E-Commerce.BL.pdb
+D:\sd\C#\C# repos\E-Commerce-API\E-Commerce.BL\obj\Debug\net8.0\ref\E-Commerce.BL.dll
