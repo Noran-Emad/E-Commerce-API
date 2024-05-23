@@ -27,8 +27,23 @@ namespace E_Commerce.DAL.DBContext
             base.OnModelCreating(builder);
 
             builder.Entity<Cart>()
-                .HasOne(item => item.User)
-                .WithOne(cart => cart.Cart);
+             .HasOne(item => item.User)
+             .WithOne(cart => cart.Cart);
+
+            builder.Entity<OrderProduct>()
+            .HasOne(e => e.Product)
+            .WithMany(product => product.OrderProducts)
+            .HasForeignKey(item => item.ProductId);
+
+            builder.Entity<Order>()
+           .HasOne(item => item.User)
+           .WithMany(order => order.Orders)
+           .HasForeignKey(r => r.UserId);
+
+            builder.Entity<OrderProduct>()
+           .HasOne(e => e.Order)
+            .WithMany(order => order.OrderItems)
+            .HasForeignKey(item => item.OrderId);
 
             #region Seeding  products
 
