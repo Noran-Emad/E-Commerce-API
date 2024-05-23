@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace E_Commerce.DAL.DBContext
 {
-    public class Context : IdentityDbContext<User>
+    public class EContext : IdentityDbContext<User>
     {
         public DbSet<Product> Products => Set<Product>();
         public DbSet<Category> Categories => Set<Category>();
@@ -17,7 +17,7 @@ namespace E_Commerce.DAL.DBContext
         public DbSet<OrderProduct> OrderProducts => Set<OrderProduct>();
         public DbSet<CartProduct> CartProducts => Set<CartProduct>();
 
-        public Context(DbContextOptions<Context> options)
+        public EContext(DbContextOptions<EContext> options)
          : base(options)
         {
         // This constructor forces me to enter my Connection string to use my Context in any connection string (SQl ,sql server,... to be flexable
@@ -49,17 +49,18 @@ namespace E_Commerce.DAL.DBContext
 
             var products = new List<Product>
         {
-          new Product {ProductId= 1,Name= "headphone",Description ="good product ",Color="red",CategoryId=1,Price=3000 },
-          new Product {ProductId= 2,Name= "phone",Description ="good product oppo ",Color="red",CategoryId=3,Price=40000},
-          new Product {ProductId= 3,Name= "Iphone",Description ="good product apple ",Color="red",CategoryId=2,Price=90000}
+          new Product {ProductId= 1,Name= "Samsung s24",Description ="latest version",Color="White",CategoryId=2,Price=33000 },
+          new Product {ProductId= 1,Name= "Samsung T10",Description ="latest version",Color="White",CategoryId=32,Price=35000 },
+          new Product {ProductId= 2,Name= "Iphone15",Description ="latest version",Color="Gold",CategoryId=2,Price=40000},
+          new Product {ProductId= 3,Name= "x-box",Description ="latest version",Color="Black",CategoryId=1,Price=50000}
         };
             #endregion
             #region Seeding Categories
             var Categories = new List<Category>
             {
-                new Category{CategoryId=1,CategoryName="electronic"},
-                new Category{CategoryId=2,CategoryName="ios"},
-                new Category{CategoryId=3,CategoryName="android"}
+                new Category{CategoryId=1,CategoryName="X-Box"},
+                new Category{CategoryId=2,CategoryName="Mobiles"},
+                new Category{CategoryId=3,CategoryName="Tablests"}
 
             };
             #endregion

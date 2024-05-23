@@ -27,7 +27,7 @@ namespace E_Commerce.API.Controllers
 
             _cartManeger.AddProductToCart(addToCartDto.ProductId, addToCartDto.Quantity, user.Id);
 
-            return Ok("product is added to cart");
+            return Ok("product Sucsessfully Added to Cart");
 
         }
         [Authorize]
@@ -37,7 +37,7 @@ namespace E_Commerce.API.Controllers
         {
             User? user = await _userManage.GetUserAsync(User);
             _cartManeger.RemoveProductFromCart(id, user.Id);
-            return Ok("product is deleted from cart");
+            return Ok("product Sucsessfully Deleted from Cart");
         }
         [Authorize]
         [HttpPut]
@@ -47,7 +47,7 @@ namespace E_Commerce.API.Controllers
 
             _cartManeger.UpadteProductQuentity(editQuentityProCartDto.ProductId,
              editQuentityProCartDto.Quantity, user.Id);
-            return Ok("product  is updated successfully");
+            return Ok("product  Sucsessfully Updated");
         }
 
     }

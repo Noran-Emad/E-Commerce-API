@@ -13,8 +13,8 @@ namespace E_Commerce.DAL.Repos.CartRepo;
 public class CartsRepo : GenericRepo<Cart>, ICartsRepo
 
 {
-    public readonly Context _Context;
-    public CartsRepo(Context Context) : base(Context)
+    public readonly EContext _Context;
+    public CartsRepo(EContext Context) : base(Context)
     {
         _Context = Context;
     }

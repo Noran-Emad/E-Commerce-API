@@ -9,9 +9,9 @@ namespace E_Commerce.DAL.Repos.GenericRepo;
 
 public class GenericRepo<T> : IGenericRepo<T> where T : class
 {
-    private readonly Context _context;
+    private readonly EContext _context;
 
-    public GenericRepo(Context context)
+    public GenericRepo(EContext context)
     {
        this._context = context;
     }

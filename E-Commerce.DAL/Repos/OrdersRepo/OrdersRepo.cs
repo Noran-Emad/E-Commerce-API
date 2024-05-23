@@ -12,9 +12,9 @@ namespace E_Commerce.DAL.Repos.OrdersRepo;
 
 public class OrdersRepo : GenericRepo<Order>, IOrdersRepo
 {
-    public readonly Context _Context;
+    public readonly EContext _Context;
 
-    public OrdersRepo(Context context) : base(context)
+    public OrdersRepo(EContext context) : base(context)
     {
         _Context = context;
     }

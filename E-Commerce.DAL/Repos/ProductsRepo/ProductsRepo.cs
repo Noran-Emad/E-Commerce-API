@@ -13,8 +13,8 @@ namespace E_Commerce.DAL.Repos.ProductsRepo;
 
 public class ProductsRepo : GenericRepo<Product>, IProductsRepo
 {
-    private readonly Context _Context;
-    public ProductsRepo(Context context) : base(context)
+    private readonly EContext _Context;
+    public ProductsRepo(EContext context) : base(context)
     {
         _Context = context;
     }

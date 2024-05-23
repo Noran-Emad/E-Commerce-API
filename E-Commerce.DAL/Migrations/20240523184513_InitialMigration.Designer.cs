@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace E_Commerce.DAL.Migrations
 {
-    [DbContext(typeof(Context))]
+    [DbContext(typeof(EContext))]
     [Migration("20240523184513_InitialMigration")]
     partial class InitialMigration
     {

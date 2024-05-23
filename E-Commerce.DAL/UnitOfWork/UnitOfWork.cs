@@ -12,8 +12,8 @@ namespace E_Commerce.DAL;
 
 public class UnitOfWork : IUnitOfWork
 {
-    private readonly Context _Context;
-    public UnitOfWork(Context DbContext, IProductsRepo productsRepos, ICartsRepo cartsRepo, IOrdersRepo ordersRepo)
+    private readonly EContext _Context;
+    public UnitOfWork(EContext DbContext, IProductsRepo productsRepos, ICartsRepo cartsRepo, IOrdersRepo ordersRepo)
     {
         _Context = DbContext;
     }

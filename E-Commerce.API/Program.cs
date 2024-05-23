@@ -35,7 +35,7 @@ namespace E_Commerce.API
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-            #region Identity
+            //#region Identity
 
             //builder.Services.AddIdentityCore<User>(options =>
             //{
@@ -47,11 +47,11 @@ namespace E_Commerce.API
 
             //    options.User.RequireUniqueEmail = true;
             //})
-            //    .AddEntityFrameworkStores<Context>();
+            //    .AddEntityFrameworkStores<EContext>();
 
-            #endregion
+            //#endregion
 
-            #region Authentication
+            //#region Authentication
 
             //builder.Services.AddAuthentication(options =>
             //{
@@ -59,7 +59,7 @@ namespace E_Commerce.API
             //    options.DefaultAuthenticateScheme = "MyDefault";
             //    options.DefaultChallengeScheme = "MyDefault"; // return 401 if not authenticated, 403 if authenticated but not authorized
             //})
-            //    // Define the authentication scheme
+            //// Define the authentication scheme
             //.AddJwtBearer("MyDefault", options =>
             //{
             //    var keyFromConfig = builder.Configuration.GetValue<string>(AppSettings.SecretKey)!;
@@ -74,7 +74,7 @@ namespace E_Commerce.API
             //    };
             //});
 
-            #endregion
+            //#endregion
 
             app.UseHttpsRedirection();
 

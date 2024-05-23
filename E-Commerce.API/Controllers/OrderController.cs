@@ -29,7 +29,7 @@ namespace E_Commerce.API.Controllers
             _orderManeger.AddNewOrder(newOrder, user.Id);
 
 
-            return Ok("order is added successfully");
+            return Ok("Order Created Sucsessfully");
         }
 
         [Authorize]

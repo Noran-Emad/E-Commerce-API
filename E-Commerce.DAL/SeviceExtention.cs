@@ -20,7 +20,7 @@ public static class SeviceExtention
             IConfiguration configuration)
     {
         var connectionString = configuration.GetConnectionString("ECommerceDB");
-        services.AddDbContext<Context>(options =>
+        services.AddDbContext<EContext>(options =>
         options.UseSqlServer(connectionString));
         services.AddScoped<ICartsRepo,CartsRepo>();
 
