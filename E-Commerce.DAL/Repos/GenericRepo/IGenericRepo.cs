@@ -8,7 +8,7 @@ namespace E_Commerce.DAL.Repos.GenericRepo;
 
 public interface IGenericRepo<T> where T : class
 {
-    List<T> GetAll();
+    IEnumerable<T> GetAll();
     //T? GetById(int id);
     void Add(T entity);
     void Update(T entity);

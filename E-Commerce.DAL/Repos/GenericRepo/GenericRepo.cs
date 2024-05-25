@@ -1,4 +1,5 @@
 ﻿using E_Commerce.DAL.DBContext;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,9 +27,9 @@ public class GenericRepo<T> : IGenericRepo<T> where T : class
         _context.Set<T>().Remove(entity);
     }
 
-    public List<T> GetAll()
+    public IEnumerable<T> GetAll()
     {
-        return _context.Set<T>().ToList();
+        return _context.Set<T>().AsNoTracking();
     }
 
     //public T? GetById(int id)

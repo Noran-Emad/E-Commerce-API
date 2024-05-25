@@ -21,9 +21,10 @@ namespace E_Commerce.API.Controllers
             var product = _maneger.GetAll();
             return product.ToList();
         }
+
         /////////////////////////////////
         [HttpGet]
-        [Route("Details/{id}")]
+        [Route("{id}")]
         public ActionResult<GetProductDetailsDto> GetById(int id)
         {
             var ProductDetails = _maneger.GetById(id);
@@ -36,7 +37,7 @@ namespace E_Commerce.API.Controllers
 
         ///////////////////////////////////
         [HttpGet]
-        [Route("{id}")]
+        [Route("Category/{id}")]
         public ActionResult<IEnumerable<GetProductDto>> GetByCatId(int id)
         {
             var Products = _maneger.GetByCategory(id);

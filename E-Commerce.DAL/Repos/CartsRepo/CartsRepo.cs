@@ -21,7 +21,6 @@ public class CartsRepo : GenericRepo<Cart>, ICartsRepo
 
     public void AddProductToCart(int productId, int Quentity, string UserId)
     {
-
         var cart = _Context.Set<Cart>()
                   .FirstOrDefault(c => c.UserId == UserId);
 
@@ -34,6 +33,7 @@ public class CartsRepo : GenericRepo<Cart>, ICartsRepo
                 CartProducts = new List<CartProduct>()
             };
             _Context.Set<Cart>().Add(cart);
+            _Context.SaveChanges();
         }
 
         // Create a new cart item based on the provided productId and quantity
@@ -58,13 +58,11 @@ public class CartsRepo : GenericRepo<Cart>, ICartsRepo
                 _Context.Set<CartProduct>().Add(newcartItem);
                 _Context.SaveChanges();
 
-
             }
 
         }
 
         _Context.SaveChanges();
-
     }
 
     public void RemoveProductFromCart(int productId, string UserId)

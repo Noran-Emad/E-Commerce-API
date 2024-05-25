@@ -50,9 +50,9 @@ namespace E_Commerce.DAL.DBContext
             var products = new List<Product>
         {
           new Product {ProductId= 1,Name= "Samsung s24",Description ="latest version",Color="White",CategoryId=2,Price=33000 },
-          new Product {ProductId= 1,Name= "Samsung T10",Description ="latest version",Color="White",CategoryId=32,Price=35000 },
           new Product {ProductId= 2,Name= "Iphone15",Description ="latest version",Color="Gold",CategoryId=2,Price=40000},
-          new Product {ProductId= 3,Name= "x-box",Description ="latest version",Color="Black",CategoryId=1,Price=50000}
+          new Product {ProductId= 3,Name= "x-box",Description ="latest version",Color="Black",CategoryId=1,Price=50000},
+          new Product {ProductId= 4,Name= "Samsung T10",Description ="latest version",Color="White",CategoryId=3,Price=35000 }
         };
             #endregion
             #region Seeding Categories
